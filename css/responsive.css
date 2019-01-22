@@ -1,0 +1,1663 @@
+
+@media (min-width: 1500px) {
+  .appmax-about-area .container {
+    width: 1450px;
+  }
+  
+  .price-table-area .container .category li{
+    padding-left: 15%;
+  }
+
+  .price .category li:nth-child(3) span{
+    line-height: 25px;
+  }
+
+  .price .category li:nth-child(6) span {
+    line-height: 21px;
+  }
+
+  .price span,
+  .price .category li:nth-child(5) span {
+    line-height: 47px;
+  }
+}
+
+@media (min-width: 1711px) {
+  .price .category li:nth-child(3) span{
+    line-height: 47px;
+  }
+}
+
+@media (min-width: 1975px) {
+  .price .category li:nth-child(6) span {
+    line-height: 47px;
+  }
+}
+
+/*For bigger screen then normal 960px desktop*/
+@media (min-width: 1200px) {
+
+.appmax-v2 .appmax-banner-position-rel .background {
+  height: 100vh;
+  align-items: flex-end;
+  display: flex;
+}
+.appmax-v2 .appmax-banner-position-rel .background:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 25vh;
+  background-color: #6671E4;
+  top: 0;
+  left: 0;
+}
+.appmax-download-img img:last-child {
+  display: none;
+}
+
+#appmax-home .container {
+  /* width: auto;
+  min-width: 1190px; */
+}
+
+}
+
+@media only screen and (max-width: 1199px) {
+
+.height-100vh,
+body.appmax_stripes .height-100vh {
+  height: 80vh;
+  min-height: 700px;
+  max-height: 700px;
+}
+body.appmax_triangles .appmax-banner-area {
+  height: 80vh;
+  min-height: 900px;
+  max-height: 900px;
+}
+body.appmax_triangles .appmax-banner-area .height-100vh {
+  min-height: 850px;
+  max-height: 850px;
+}
+body.appmax-wave-banner .appmax-banner-area .height-100vh {
+  max-height: 850px;
+}
+body.appmax-wave .appmax-banner-promo-section {
+    padding-top: 0px;
+}
+.appmax-banner-content h1 {
+  font-size: 2.5em;
+  line-height: 56px;
+}
+.appmax-banner-content p {
+  font-size: 1em;
+  line-height: 30px;
+}
+.appmax-about-right-content h2 {
+  font-size: 1.7em;
+  line-height: 40px;
+}
+.about-list li {
+  font-size: 1em;
+}
+.appmax-download-content h2 {
+  font-size: 2em;
+  line-height: 54px;
+}
+.appmax-pricing-table-content h2 {
+  font-size: 1.7em;
+  line-height: 40px;
+}
+.contact-form-content-title h2 {
+  font-size: 1.7em;
+  line-height: 40px;
+}
+.appmax-download-img img:nth-child(1),
+.appmax-download-img img:nth-child(2){
+  display: none;
+}
+.appmax-download-img img:last-child {
+  display: block;
+}
+.counter-left {
+  margin-right: 2px;
+}
+.count-right p {
+  font-size: 0.838em;
+}
+.google-play.fotter {
+  margin-right: 0;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  right: -20px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: -20px;
+}
+.appmax-screen-mobile-image {
+  width: 315px;
+  height: 615px;
+}
+.appmax-subscribe input[type="email"] {
+  height: 100px;
+}
+.appmax-subscribe input[type="submit"] {
+  height: 50px;
+  top: 26px;
+  width: 190px;
+}
+.appmax-about-two-area .appmax-about-left-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.appmax-user-review-item {
+  width: auto;
+}
+.appmax-v2 .appmax-fotter-area {
+  background-size: cover;
+  background-position: center;
+}
+.appmax-swiper-slider-area .swiper-wrapper {
+  height: 600px;
+}
+.swiper-slide.swiper-slide-active,
+.swiper-slide {
+  background-size: 100% 100%;
+}
+body.appmax_default .appmax-banner-promo-item {
+  margin-top: -250px;
+}
+.appmax-banner-video .appmax-banner-screenshot:nth-child(3) {
+  left: auto;
+  right: -20px;
+}
+
+/*APPMAX V2*/
+.appmax-v2 .appmax-banner-promo-section {
+  padding: 0 0 100px;
+}
+.appmax-v2 .appmax-video-bg {
+  min-height: 500px;
+}
+.appmax-v2 .appmax-video-popup {
+  top: 45%;
+}
+.appmax-v2 .video-title {
+  font-size: 1.60em;
+}
+.appmax-v2 .appmax-download-img img:last-child {
+  display: block;
+}
+.appmax-v2 .appmax-download-img::before {
+  height: calc(100% + 531px);
+  width: calc(100% + 276px);
+}
+.appmax-v2 .appmax-download-img img:last-child {
+  left: 100px;
+}
+.appmax-v2 .appmax-swiper-slider-area {
+  padding: 100px 0;
+}
+.appmax-v2 .appmax-banner-position-rel .background {
+  height: 80vh;
+  align-items: flex-end;
+  display: flex;
+  max-height: 700px;
+}
+.appmax-v2 .appmax-banner-position-rel .background:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20vh;
+  background-color: #6671E4;
+  top: 0;
+  left: 0;
+}
+.appmax-banner-img {
+  max-width: 310px;
+}
+.appmax--videobg-skew {
+  height: 500px;
+}
+
+.appmax--bannerllax {
+  height: 900px;
+}
+
+.price-table-area .container .category li, 
+.price-table-area .container .detailed-price li{
+  font-size: 14px;
+}
+
+.price .category li:nth-child(4) span,
+.price .category li:nth-child(7) span {
+  line-height: 19px;
+}
+
+/*APPMAX BLOG*/
+.appmax-blog-content {
+  padding: 150px 0 100px;
+}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+.appmax-phone-visuals {
+  margin-top: 4rem;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.appmax-iphone {
+  padding: 2.5rem 0.6rem 0;
+}
+.appmax-iphone::before {
+  width: 14rem;
+  padding-top: 167%;
+}
+.appscraft-screen-container {
+  width: 14rem;
+  padding-top: 154%;
+  top: 2.5rem;
+}
+.appmax-v2 .appmax-user-review-bg {
+  right: calc(-100vw + 60%);
+}
+.appmax-v2 .appmax-user-review-area {
+  padding: 100px 0 150px;
+}
+.appmax-v2 .appmax-contact-form-box::before {
+  background-size: contain;
+  height: calc(100% + 0px);
+  right: 0px;
+  top: 0px;
+  width: calc(100% + 0px);
+}
+.appmax-v2 .appmax-contact-form-content::before {
+  background-size: contain;
+  height: calc(100% + 0px);
+  left: 0px;
+  top: 0px;
+  width: calc(100% + 0px);
+}
+
+/*APPMAX BLOG PAGE*/
+.appmax-blog-content {
+  padding: 120px 0 80px;
+}
+.post-title h2 {
+  font-size: 1.3em;
+  line-height: 32px;
+}
+.blog-category ul li a {
+  font-size: 0.875em;
+}
+.appmax-single-popylar-item h2 {
+  font-size: 0.875em;
+}
+.google-play.blog {
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+.blog-post-single-pagination:nth-child(1) ul li a {
+  height: 60px;
+  line-height: 60px;
+  width: 150px;
+}
+.blog-post-single-pagination:nth-child(2) ul li {
+  margin: 0 3px;
+}
+.blog-post-single-pagination:nth-child(3) ul li a {
+  height: 60px;
+  line-height: 60px;
+  width: 150px;
+}
+.single-blog-img-left img {
+  height: 270px;
+}
+.appmax-blog-post-content {
+  padding: 20px 5px;
+}
+.appmax-blog-post-detalis {
+  margin-bottom: 50px;
+}
+.appmax-blog-single-sidebar {
+  margin-bottom: 20px;
+  padding: 20px 10px;
+}
+.appmax-single-blog .appmax-blog-post {
+  padding: 20px;
+}
+body.appmax_curved .appmax-banner-area:before, body.appmax_curved .appmax-fotter-area:before {
+  bottom: 7vh;
+}
+body.appmax_curved .appmax-banner-area:after, body.appmax_curved .appmax-fotter-area:after {
+  bottom: 5vh;
+}
+.stripes-header {
+  bottom: 10px;
+}
+body.appmax_stripes .appmax-banner-area {
+  margin-bottom: 5vh;
+}
+.waves {
+  max-height: 200px;
+}
+body.appmax-v2.appmax-wave-banner .appmax-banner-area {
+  margin-bottom: 50px;
+}
+body.appmax-wave .appmax-image-bounce img {
+  max-width: 600px;
+}
+
+
+}
+
+@media (min-width: 768px) {
+  .appmax-debit-card .desktop-table {
+    
+  }
+}
+
+/*For Tablet Layout*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+.appmax-phone-visuals {
+  margin-top: 4rem;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.appmax-iphone {
+  padding: 2.5rem 0.6rem 0;
+}
+.appmax-iphone::before {
+  width: 14rem;
+  padding-top: 167%;
+}
+.appscraft-screen-container {
+  width: 14rem;
+  padding-top: 154%;
+  top: 2.5rem;
+}
+.height-100vh,
+body.appmax_stripes .height-100vh {
+  height: 60vh;
+  min-height: 600px;
+}
+.appmax-banner-img {
+  max-width: 230px;
+}
+.appmax-header-menu {
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  top: 60px;
+  width: 100%;
+}
+
+.menu-toggle {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 2em;
+  position: absolute;
+  right: 30px;
+  top: -13px;
+}
+.appmax-header-menu ul {
+  display: block;
+}
+.appmax-header-menu ul li {
+  margin: 20px 0 20px 20px;
+  width: 100%;
+  text-align: center;
+}
+#mobile-menu ul li {
+  margin: 20px 0 20px 0px;
+  width: 100%;
+  text-align: center;
+}
+.appmax-header-menu ul li a {
+  font-size: 0.9em;
+}
+.appmax-banner-content h1 {
+  font-size: 2.0em;
+  line-height: 1.2;
+}
+.appmax-banner-content p {
+  font-size: 0.9em;
+  line-height: 2;
+  padding: 18px 0 20px;
+}
+.appmax-default-btn {
+  min-width: 180px;
+  line-height: 50px;
+  height: 50px;
+}
+.appmax-banner-promo-section {
+  padding: 0 0 150px;
+}
+.appmax-banner-promo-item {
+  padding: 40px;
+}
+.appmax-feature-single-item {
+  margin-bottom: 25px;
+}
+.appmax-feature-item-icon {
+  margin: 0 auto 20px;
+}
+.item-title {
+  font-size: 1em;
+}
+.appmax-about-area {
+  padding: 0 0 90px;
+}
+.appmax-about-left-img::before {
+  background-position: right center;
+}
+.appmax-about-right-content {
+  padding: 37px 0;
+}
+.appmax-about-right-content i {
+  font-size: 1.5em;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+}
+.appmax-about-right-content h2 {
+  font-size: 1.5em;
+  line-height: 40px;
+  padding: 18px 0 15px;
+}
+.appmax-about-right-content p {
+  margin: 0 0 20px;
+}
+.about-list li {
+  font-size: 1em;
+}
+.appmax-about-two-area {
+  padding: 0;
+}
+
+.appmax-counter-area {
+  padding: 80px 0;
+}
+.single-counter{
+  margin-bottom: 50px;
+}
+.appmax-download-img {
+  margin-top: 30px;
+}
+.appmax-download-img img:last-child {
+  display: none;
+}
+.appmax-download-content {
+  padding: 190px 0;
+}
+.appmax-download-content h2 {
+  font-size: 1.9em;
+  line-height: 40px;
+}
+.appmax-download-content p {
+  font-size: 1em;
+}
+.google-play {
+  height: 60px;
+  line-height: 60px;
+  width: 175px;
+}
+.app-store {
+  height: 60px;
+  line-height: 60px;
+  width: 175px;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  right: -20px;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: -20px;
+}
+.appmax-screen-mobile-image {
+  width: 240px;
+  height: 528px;
+}
+.appmax-pricing-table-content h2 {
+  font-size: 1.5em;
+  line-height: 40px;
+}
+.appmax-pricing-table-content i {
+  font-size: 1.5em;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+}
+.appmax-pricing-table-box.appmax-pricing-table-2 {
+  left: 27px;
+}
+.appmax-contact-form-area {
+  padding: 50px 0 100px;
+}
+.contact-form-content-title h2 {
+  font-size: 1.7em;
+  line-height: 40px;
+}
+.information h5 {
+  font-size: 1em;
+}
+.appmax-fotter-title i {
+  font-size: 1.5em;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+}
+.appmax-fotter-title h2 {
+  font-size: 1.5em;
+}
+.appmax-subscribe input[type="email"] {
+  height: 115px;
+}
+.appmax-subscribe input[type="submit"] {
+  height: 55px;
+  top: 30px;
+  width: 200px;
+}
+.google-play.fotter {
+  height: 50px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  width: 150px;
+}
+.app-store.fotter{
+  height: 50px;
+  line-height: 50px;
+  margin-right: 0px;
+  width: 150px;
+}
+.appmax-swiper-slider-area .swiper-wrapper {
+  height: 515px;
+  width: 200px;
+}
+body.appmax_curved .appmax-banner-area:before, body.appmax_curved .appmax-fotter-area:before {
+  bottom: 7vh;
+}
+body.appmax_curved .appmax-banner-area:after, body.appmax_curved .appmax-fotter-area:after {
+  bottom: 5vh;
+}
+.appmax--videobg-skew {
+  height: 400px;
+}
+.banner-swiper-screenshot {
+  max-width: 500px;
+}
+body.appmax-screenshot .banner-swiper-screenshot .appmax-screen-mobile-image {
+  height: 552px;
+  width: 264px;
+}
+.waves {
+  max-height: 150px;
+}
+body.appmax-v2.appmax-wave .height-100vh {
+  min-height: 600px;
+  max-height: 600px;
+}
+body.appmax-wave .appmax-image-bounce img {
+  max-width: 500px;
+}
+
+/*APPMAX V2*/
+.appmax-v2 .appmax-banner-promo-section {
+  padding: 0 0 100px;
+}
+.appmax-v2 .appmax-video-bg {
+  min-height: 400px;
+}
+.appmax-v2 .appmax-feature-item-icon {
+  height: 109px;
+  margin: 0 auto 20px;
+  width: 109px;
+}
+.appmax-v2 .appmax-feature-item-icon i {
+  height: 80px;
+  line-height: 80px;
+  top: 0;
+  width: 80px;
+}
+.appmax-v2 .appmax-video-area {
+  padding: 0 0 135px;
+}
+.appmax-v2 .appmax-about-area {
+  padding: 100px 0;
+}
+.appmax-v2 .appmax-about-right-content {
+  padding: 10px 0;
+}
+.appmax-v2 .appmax-counter-area {
+  padding: 0;
+}
+.appmax-v2 .appmax-swiper-slider-area {
+  padding: 100px 0;
+}
+.appmax-v2 .appmax-download-img img:last-child {
+  height: inherit;
+  left: 0;
+  position: absolute;
+  top: 75px;
+}
+.appmax-v2 .appmax-download-img::before {
+  height: calc(100% + 425px);
+  width: calc(100% + 320px);
+}
+.appmax-v2 .appmax-download-img img:last-child {
+  display: block;
+}
+.appmax-v2 .appmax-user-review-bg {
+  background-position: bottom center;
+  height: 90%;
+  right: calc(-100vw + 75%);
+}
+.appmax-v2 .appmax-contact-form-box::before {
+  background-size: contain;
+  height: calc(100% + 0px);
+  right: 0px;
+  top: 0px;
+  width: calc(100% + 0px);
+}
+.appmax-v2 .appmax-contact-form-content::before {
+  background-size: contain;
+  height: calc(100% + 0px);
+  left: 0px;
+  top: 0px;
+  width: calc(100% + 0px);
+}
+.appmax-v2 .appmax-contact-form-content {
+    margin-bottom: 70px;
+}
+.appmax-v2 .appmax-banner-position-rel .background {
+  min-height: 0;
+  height: 600px;
+}
+.appmax-v2 .appmax-fotter-area::after {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  bottom: -30%;
+}
+.appmax-fotter-area.appmax-parallax {
+  padding-bottom: 100px;
+}
+.stripes-header {
+  bottom: 0px;
+}
+body.appmax_stripes .appmax-banner-area {
+  margin-bottom: 5vh;
+}
+.appmax-banner-screenshot {
+  position: static;
+  max-width: 100%;
+}
+.appmax-banner-video {
+  height: auto;
+  top: 15%;
+}
+.appmax-banner-video .appmax-default-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/*APPMAX BLOG PAGE*/
+
+.appmax-blog-area {
+  padding: 70px 0;
+}
+.appmax-blog-content {
+  padding: 100px 0 70px;
+}
+.post-title h2 {
+  font-size: 1.3em;
+  line-height: 32px;
+}
+.blog-category ul li a {
+  font-size: 0.875em;
+}
+.appmax-single-popylar-item h2 {
+  font-size: 0.875em;
+}
+.google-play.blog {
+  margin-bottom: 10px;
+  margin-right: 0;
+}
+.blog-post-single-pagination:nth-child(1) ul li a {
+  height: 60px;
+  line-height: 60px;
+  width: 150px;
+}
+.blog-post-single-pagination:nth-child(2) ul li {
+  margin: 0 3px;
+}
+.blog-post-single-pagination:nth-child(3) ul li a {
+  height: 60px;
+  line-height: 60px;
+  width: 150px;
+}
+.appmax-single-blog .appmax-blog-post {
+  padding: 40px;
+}
+.appmax-blog-post-detalis p {
+  font-size: 0.938em;
+}
+.appmax-blockquote blockquote {
+  font-size: 0.938em;
+  margin: 40px 0;
+}
+.single-blog-heart i {
+  margin-right: 5px;
+}
+.single-blog-social-icon p {
+  margin-right: 0px !important;
+}
+.appmax-blog-post-content {
+  padding: 20px 5px;
+}
+.appmax-blog-post-detalis {
+  margin-bottom: 50px;
+}
+.appmax-blog-single-sidebar {
+  margin-bottom: 20px;
+  padding: 20px 10px;
+}
+.appmax-single-blog .appmax-blog-post {
+  padding: 20px 10px;
+}
+.appmax-single-blog .appmax-blog-single-img {
+  margin-bottom: 20px;
+}
+.single-blog-img-left {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.single-blog-img-right {
+  width: 100%;
+}
+.single-blog-img-left {
+  height: 215px;
+}
+.appmax-single-blog-img {
+  padding: 40px 0;
+}
+.appmax-feature-animate-frame {
+  width: 290px;
+  height: 560px;
+  top: 20px;
+}
+.appmax-banner-promo-item::before {
+  height: 100%;
+}
+body.appmax-v2.appmax-wave-banner .appmax-banner-area {
+  margin-bottom: 40px;
+}
+.swiper-container-user-view2{
+  padding: 0 20%;
+}
+.appmax-download-bg2 {
+  background-size: auto 70%;
+  top: -118px;
+}
+
+}
+
+@media (min-width: 992px) {
+  .appmax-header-area .col-12 {
+    display: none;
+  }
+  .price-table-area .mobile-table {
+    display: none;
+  }
+  .appmax-about-area .container {
+    width: 1190px;
+  }
+}
+
+@media (max-width: 991px) {
+  .price-table-area .desktop-table {
+    display: none;
+  }
+
+  .price-table-area .mobile-table {
+    display: block;
+  }
+
+  .price-table-area .mobile-table h5 {
+    font-size: 22px;
+  }
+  .appmax-download-bg3{
+    height: 36%;
+    left: 92px;
+    right: calc((-124vw + 85%) / 2);
+  }
+  #mobile-menu {
+    background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+    display: none;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    top: 20px;
+    width: 100%;
+  }
+  .appmax-header-menu ul li a:hover:before {
+    width:0%;
+  }
+  .appmax-feature-area {
+    margin-top: 200px;
+  }
+  .price-table-area {
+    margin: 130px 0 130px;
+  }
+  .price-table-area .mobile-table .category li span{
+    line-height: 0px;
+  }
+}
+
+
+/*For Wide Mobile Layout*/
+@media (max-width: 767px) {
+
+.height-100vh {
+  height: 80vh;
+  min-height: 600px;
+}
+body.appmax_curved .appmax-banner-area .height-100vh {
+  height: auto;
+  min-height: 0;
+}
+body.appmax_curved .appmax-banner-content {
+    margin-bottom: 50px;
+}
+.appmax-v2 .appmax-banner-position-rel .background {
+  background-color: #6671E4;
+}
+.appmax-default-btn {
+  box-shadow: 0 0 0 transparent;
+}
+.mobile-hidden {
+  display: none !important;
+}
+.appmax-header-menu {
+  background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+  display: none;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  top: 21px;
+  width: 100%;
+}
+.menu-toggle {
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  right: 30px;
+  top: -52px;
+  display: block;
+  cursor: pointer;
+}
+.appmax-header-menu ul {
+  display: block;
+}
+.appmax-header-menu ul li {
+  margin: 10px 0;
+  width: 100%;
+  text-align: center;
+}
+body.appmax_default .appmax-banner-area {
+  padding-bottom: 100px;
+}
+.appmax-banner-content h1 {
+  font-size: 2.0em;
+  line-height: 1.3;
+}
+.appmax-banner-content p {
+  font-size: 1em;
+  padding: 20px 0;
+}
+.appmax-default-btn {
+  min-width: 175px;
+  line-height: 45px;
+  height: 45px;
+  padding: 0 15px;
+}
+.appmax-banner-img {
+  display: none;
+}
+.appmax-banner-promo-section {
+  padding: 0 0 100px;
+}
+body.appmax_default .appmax-banner-promo-item {
+  margin-top: -105px;
+  padding: 50px;
+}
+.appmax-banner-video .appmax-banner-screenshot:nth-child(3) {
+  left: auto;
+  right: 0;
+}
+.appmax-banner-promo-item::before {
+  height: 100%;
+}
+.appmax-banner-single-promo {
+  margin-bottom: 40px;
+}
+.appmax-heding-title i {
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+}
+.appmax-heding-title h2 {
+  font-size: 1.8em;
+}
+.appmax-heding-title p {
+  font-size: 0.9em;
+}
+.appmax-about-left-img {
+  margin-bottom: 110px;
+  text-align: center;
+}
+.appmax-swiper-slider-area .swiper-wrapper {
+  height: 540px;
+}
+.appmax-screen-mobile-image {
+  width: 270px;
+  height: 552px;
+}
+.appmax-about-right-content i {
+  font-size: 1.5em;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+}
+.appmax-about-right-content h2 {
+  font-size: 1.7em;
+  line-height: 40px;
+}
+.appmax-about-area {
+  padding: 0;
+}
+.appmax-about-right-content {
+  margin-bottom: 110px;
+  padding: 0;
+}
+.appmax-about-two-area {
+  padding: 0;
+}
+.appmax-about-two-area .appmax-about-left-img {
+  margin-bottom: 0;
+  height: auto !important;
+}
+.appmax-about-two-area .appmax-about-right-content {
+  padding: 0;
+  margin-bottom: 40px;
+}
+.about-list li {
+  font-size: 1em;
+}
+.appmax-user-review-item {
+  width: calc(100% - 60px);
+  padding: 30px;
+}
+.appmax-counter-area {
+  padding: 100px 0 0;
+  text-align: center;
+}
+.single-counter{
+  margin-bottom: 40px;
+}
+.counter-left {
+  float: none;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.count-right {
+  float: none;
+}
+.appmax-download-bg {
+  left: -50vw;
+  transform: translate3d(0,0,0) !important;
+}
+.appmax-download-section-area {
+  text-align: center;
+}
+.appmax-download-content {
+  padding: 50px 0 250px;
+}
+.appmax-download-content h2 {
+  font-size: 1.9em;
+}
+.google-play {
+ height: 65px !important;
+  line-height: 65px !important;
+  width: 180px !important;
+}
+.app-store {
+  height: 65px !important;
+  line-height: 65px !important;
+  width: 180px !important;
+}
+.appmax-swiper-slider-area {
+  padding: 0;
+}
+.appmax-pricing-table-content i {
+  font-size: 1.5em;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+}
+.appmax-pricing-table-content h2 {
+  font-size: 1.7em;
+  line-height: 40px;
+}
+.appmax-pricing-table-content {
+  margin-bottom: 0px;
+  padding: 50px 0;
+}
+.appmax-contact-form-area {
+  padding: 70px 0 100px;
+}
+.contact-form-content-title h2 {
+  font-size: 2em;
+  line-height: 45px;
+  padding: 6px 0 30px;
+}
+.information h5 {
+  font-size: 1em;
+}
+#appmax_submit {
+  width: 170px;
+}
+.appmax-fotter-title i {
+  font-size: 1.5em;
+  height: 60px;
+  line-height: 60px;
+  width: 60px;
+}
+.appmax-fotter-title h2 {
+  font-size: 1.5em;
+}
+.appmax-subscribe input[type="email"] {
+  font-size: 1em;
+  padding: 0 50px !important;
+  height: 100px;
+}
+.appmax-subscribe i {
+  left: 22px;
+}
+.appmax-subscribe input[type="submit"] {
+  font-size: 0.8em;
+  height: 50px;
+  right: 14px;;
+  width: 155px;
+  top: 24px;
+}
+.appmax-fotter-top {
+  padding: 0 0 50px;
+}
+.appmax-fotter-area {
+  padding: 100px 0 100px;
+  text-align: center;
+  background-color: #6671E4;
+}
+.fotter-social-icon {
+  margin-bottom: 50px;
+}
+.app-download {
+  text-align: center;
+}
+.google-play.fotter {
+  height: 60px;
+  line-height: 60px;
+  margin-right: 10px;
+  width: 165px;
+}
+#appmax-welcome-slider .owl-dots {
+  position: static;
+  bottom: inherit;
+  left: inherit;
+  transform: none;
+}
+.appmax-fotter-area.appmax-parallax {
+  padding-bottom: 50px;
+}
+.banner-swiper-screenshot {
+  max-width: 300px;
+}
+body.appmax-screenshot .banner-swiper-screenshot .appmax-screen-mobile-image {
+  height: 625px;
+  width: 300px;
+}
+body.appmax-screenshot .swiper-slide.swiper-slide-active img {
+  width: calc(100% - 16px);
+  margin-left: 8px;
+}
+body.appmax-wave .appmax-fotter-area, body.appmax-screenshot .appmax-fotter-area {
+  padding-top: 100px;
+}
+.waves {
+  max-height: 100px;
+}
+body.appmax-v2.appmax-wave-banner .appmax-banner-area {
+  margin-bottom: 0px;
+}
+body.appmax-v2.appmax-wave .height-100vh {
+  min-height: 600px;
+  max-height: 600px;
+}
+
+/*APPMAX V2*/
+.appmax-v2 .appmax-banner-position-rel .background:before {
+  height: 50vh;
+}
+.appmax-v2 .appmax-banner-position-rel .background {
+  height: 80vh;
+  min-height: 600px;
+}
+.appmax-v2 .video-title {
+  font-size: 1.2em;
+}
+.appmax-v2 .appmax-counter-area {
+  padding: 0;
+}
+.appmax-v2 .appmax-download-img::before {
+  display: none;
+}
+.appmax-v2 .appmax-download-content {
+  padding: 0;
+}
+.appmax-v2 .appmax-download-img img:last-child {
+  height: inherit;
+  left: 0;
+  position: relative;
+  top: 0;
+}
+.appmax-v2 .appmax-download-img {
+  margin-top: 0;
+}
+.appmax-v2 .appmax-download-content h3 {
+  margin: 45px 0 0;
+}
+.pricing-table-right,
+.appmax-v2 .pricing-table-right {
+  position: relative;
+  top: 0;
+  min-height: 670px;
+}
+.appmax-v2 .pricing-table-right::before {
+  background-size: 100%;
+  height: calc(100% + 0px);
+  left: 0px;
+  top: 0px;
+  width: calc(100% + 0px);
+}
+.appmax-contact-form-area {
+  padding: 70px 10px 100px;
+}
+.appmax-v2 .appmax-contact-form-box::before {
+  background-size: contain;
+  height: calc(100% + 0px);
+  right: 0px;
+  top: 0px;
+  width: calc(100% + 0px);
+
+}
+.appmax-v2 .appmax-contact-form-content::before {
+  background-size: contain;
+  height: calc(100% + 0px);
+  left: 0px;
+  top: 0px;
+  width: calc(100% + 0px);
+}
+.appmax-v2 .appmax-swiper-slider-area {
+    padding: 100px 0 0;
+}
+.appmax-pricing-table-box {
+  padding: 30px 20px;
+}
+.appmax-v2 .appmax-fotter-area::after {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  bottom: -30%;
+}
+.appmax--videobg-skew {
+  height: 350px;
+}
+body.appmax_triangles .appmax-banner-area .height-100vh {
+  min-height: 600px;
+  max-height: 600px;
+}
+body.appmax_triangles .appmax-banner-area {
+  min-height: 700px;
+  max-height: 700px;
+}
+.appmax--bannerllax {
+  height: 700px;
+}
+
+/*APPMAX BLOG PAGE*/
+
+.appmax-blog-area {
+  padding: 50px 0 100px;
+}
+.appmax-blog-content {
+  padding: 90px 0 60px;
+}
+.appmax-blog-post-detalis {
+  margin-bottom: 50px;
+}
+.appmax-blog-content h2 {
+  font-size: 1.8em;
+}
+.post-title h2 {
+  font-size: 1.2em;
+  line-height: 28px;
+}
+.blog-post-pagination {
+  margin-top: 50px;
+  width: 100%;
+}
+.blog-post-single-pagination:nth-child(1) ul li a {
+  height: 50px;
+  line-height: 50px;
+  width: 140px;
+}
+.blog-post-single-pagination:nth-child(3) ul li a {
+  height: 50px;
+  line-height: 50px;
+  width: 140px;
+}
+.google-play.blog {
+  height: 50px !important;
+  line-height: 50px !important;
+  margin-right: 6px;
+  width: 130px !important;
+}
+.app-store.blog{
+  height: 50px !important;
+  line-height: 50px !important;
+  margin-right: 6px;
+  width: 130px !important;
+}
+.blog-post-single-pagination:nth-child(2) {
+  padding: 10px 0;
+}
+.blog-post-single-pagination:nth-child(2) ul li a {
+  height: 25px;
+  line-height: 25px;
+  width: 25px;
+}
+.blog-post-single-pagination:nth-child(2) ul li {
+  margin: 0;
+}
+.appmax-blog-sidebar {
+  margin-top: 50px;
+}
+.appmax-blog-post-detalis p {
+  font-size: 0.938em;
+}
+.appmax-single-blog .appmax-blog-post {
+  padding: 40px;
+}
+.appmax-blog-post-content {
+  padding: 10px 5px;
+}
+.appmax-blog-single-sidebar {
+  background: #f6f8ff none repeat scroll 0 0;
+  margin-bottom: 30px;
+  padding: 20px 15px;
+}
+.appmax-single-blog .appmax-blog-post {
+  padding: 20px 10px;
+}
+.appmax-single-blog .appmax-blog-single-img {
+  margin-bottom: 30px;
+}
+.single-blog-img-left {
+  height: 100%;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.single-blog-img-right {
+  width: 100%;
+}
+.appmax-single-blog-img {
+  padding: 30px 0;
+}
+.appmax-blockquote blockquote {
+  margin: 50px 0 30px;
+}
+.appmax-feature-animate-frame {
+  top: 0px;
+  width: 300px;
+  height: 590px;
+  max-width: 365px;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.featured-slider-static-img {
+  display: none;
+}
+.appmax-v2 .appmax-video-bg {
+  min-height: 400px;
+}
+body.appmax_stripes .height-100vh {
+  height: 80vh;
+  min-height: 500px;
+}
+.stripes-header {
+  bottom: 0px;
+}
+body.appmax_stripes .appmax-banner-area {
+  margin-bottom: 5vh;
+  min-height: 550px;
+}
+.stripes-header .stripe {
+  height: 104px;
+}
+.stripes-header .s0 {
+  bottom: 103px;
+  height: 4000px;
+}
+.stripes-header .s3 {
+  bottom: 104px;
+}
+.stripes-header .s4 {
+  bottom: 208px;
+}
+.stripes-header .s5 {
+  bottom: 308px;
+}
+.stripes-header .s6 {
+  bottom: 412px;
+}
+.price-table-area .container .category li, 
+.price-table-area .container .detailed-price li{
+  height: 40px;
+}
+footer .fotter-logo ul{
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+.appmax-download-bg3{
+  left: -74px;
+  right: calc((-134vw + 85%) / 2);
+}
+.appmax-user-review-item2 {
+  padding: 40px 60px;
+}
+.appmax-feature-single-item {
+  min-height: auto;
+}
+.appmax-feature-item{
+  margin-top: auto;
+}
+.appmax-pricing-bg {
+  left: calc((-109vw + 100%) / 2);
+}
+.appmax-download-bg2 {
+  right: calc((-106vw + 90%) / 2);
+}
+
+
+@media (max-width: 575px) {
+
+.appmax-swiper-slider-area .swiper-wrapper {
+  height: 760px;
+}
+
+.appmax-about-area .container{
+  width: 100%;
+}
+.appmax-screen-mobile-image {
+  display: none;
+}
+.swiper-slide.swiper-slide-active, .swiper-slide {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.swiper-slide.swiper-slide-next,
+.swiper-slide.swiper-slide-prev {
+  box-shadow: none;
+}
+.swiper-slide.swiper-slide-active {
+  border-radius: 0px;
+}
+.price-table-area .nav-tabs li:nth-child(2){
+  padding-right: 0px;
+}
+.price-table-area .nav-tabs li:nth-child(3){
+  padding-left: 0px;
+}
+.appmax-pricing-bg {
+  left: calc((-109vw + 92%) / 2);
+}
+.appmax-download-bg2 {
+  right: calc((-106vw + 86%) / 2);
+  left: 270px;
+}
+.appmax-download-bg3 {
+  left: 0px;
+  right: calc((-134vw + 75%) / 2);
+}
+.appmax-user-review-item2{
+  min-height: auto;
+  padding: 15px 60px;
+}
+}
+
+
+/*For 320-384px up Mobile Layout*/
+@media (max-width: 479px) {
+
+.appmax-banner-content {
+  position: inherit;
+  text-align: center;
+  top: inherit;
+  transform: inherit;
+  width: 100%;
+}
+.appmax-banner-content h1 {
+  font-size: 1.8em;
+  line-height: 1.3;
+}
+.appmax-banner-content p {
+  line-height: 30px;
+}
+.appmax-banner-promo-section {
+  padding: 0 0 50px;
+}
+.appmax-banner-promo-item {
+  padding: 20px;
+}
+.appmax-heding-title i {
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+}
+.appmax-heding-title h2 {
+  font-size: 1.4em;
+}
+.item-title {
+  font-size: 1.3em;
+}
+.appmax-feature-area {
+  padding: 0 0 50px;
+}
+.appmax-feature-single-item {
+  margin-bottom: 50px;
+}
+.appmax-feature-item-icon {
+  margin: 0 auto 25px;
+}
+.appmax-video-area {
+  padding: 0 0 10px;
+}
+.appmax-video-popup {
+  top: 39%;
+}
+.iq-waves {
+  border-radius: 50%;
+  height: 50px;
+  transform: translate(-50%, 45%);
+  width: 50px;
+}
+.appmax-about-area {
+  padding: 50px 0 0;
+  text-align: center;
+}
+.appmax-about-two-area .appmax-about-right-content {
+  padding: 0;
+  margin-bottom: 40px;
+}
+.appmax-about-right-content h2 {
+  font-size: 1.5em;
+  line-height: 35px;
+}
+.appmax-about-two-area {
+  text-align: center;
+}
+.about-list li {
+  text-align: left;
+}
+.appmax-user-review-area {
+  padding: 100px 0 0;
+  text-align: center;
+}
+.user-review-content p {
+  font-size: 0.838em;
+}
+.user-review-meta-img {
+  float: none;
+}
+.user-review-meta-img img {
+  margin: 0 auto;
+}
+.user-review-meta-content {
+  float: none;
+  margin-top: 15px;
+}
+
+.appmax-counter-area {
+  padding: 50px 0 0;
+}
+.google-play {
+  margin: 0 0 10px;
+}
+.appmax-download-content h2 {
+  line-height: 40px;
+}
+.appmax-screen-mobile-image {
+  display: none;
+}
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+  display: none;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+ display: none;
+}
+.appmax-pricing-table-area {
+  text-align: center;
+}
+.appmax-pricing-table-content h2 {
+  font-size: 1.3em;
+  line-height: 30px;
+}
+.appmax-pricing-table-box.appmax-pricing-table-2{
+  top: 50%;
+  transform: translate(-50% ,-50%) !important;
+  left: 50%;
+}
+.appmax-pricing-table-box {
+  top: 50%;
+  transform: translate(-50% ,-50%);
+  left: 50%;
+}
+.appmax-contact-form-area {
+  text-align: center;
+}
+.appmax-fotter-area {
+  background-size: 100% auto;
+  padding: 150px 0;
+  background-color: #6671E4;
+}
+.appmax-fotter-area {
+  padding: 60px 0 70px;
+  text-align: center;
+}
+.appmax-v2 .appmax-fotter-area {
+  padding: 60px 0 70px;
+  text-align: center;
+}
+.appmax-subscribe input[type="email"] {
+  height: 50px;
+}
+.appmax-subscribe input[type="submit"] {
+  transform: none;
+  position: static;
+  margin-top: 20px;
+}
+.appmax-subscribe label {
+  bottom: 46px;
+}
+.appmax-subscribe i {
+    top: 25px;
+}
+.contact-form-content-title h2 {
+ font-size: 1.5em;
+ line-height: 35px;
+}
+.google-play.fotter {
+  margin-right: 0;
+}
+
+/*APPMAX BLOG PAGE*/
+.appmax-blog-area {
+  padding: 50px 0;
+}
+.blog-post-single-pagination:nth-child(1) ul li a {
+  height: 40px;
+  line-height: 40px;
+  width: 120px;
+}
+.blog-post-single-pagination:nth-child(3) ul li a {
+  height: 40px;
+  line-height: 40px;
+  width: 120px;
+}
+.single-blog-img-left img {
+  height: 158px;
+}
+.appmax-single-blog-img {
+  padding: 30px 0;
+}
+.single-blog-img-left {
+  height: 160px;
+}
+.appmax-download-bg3 {
+  right: calc((-190vw + 85%) / 2);
+}
+.appmax-user-review-item2 {
+  padding: 40px 20px;
+}
+
+}
+
+@media (max-width: 479px) {
+  .price-table-area .mobile-table .category li span{
+    line-height: 0px;
+  }
+  
+}

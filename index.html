@@ -32,6 +32,7 @@
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 		<!--End ALL STYLESHEET -->
 	</head>
 
@@ -51,7 +52,7 @@
 					</div>
 					<div class="col-md-9">
 						<div class="menu-toggle" id="menu-toggle">
-							<i class="fa fa-bars" aria-hidden="true" id="menu-dropdown"></i>
+							<i class="fas fa-bars" aria-hidden="true" id="menu-dropdown"></i>
 						</div>
 						<div class="appmax-header-menu" >
 							<ul>
@@ -160,68 +161,7 @@
     border-top: none;
 }
 </style>
-		 <div class="tab">
-				<!-- <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-				<button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-				<button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button> -->
-				<button class="tablinks" openCity(event, 'Paris') id="defaultOpen">London</button>
-				<button class="tablinks" cityName = 'Paris'>Paris</button>
-				<button id="abc" class="tablinks" cityName = 'Tokyo'>Tokyo</button>
-			  </div>
-			  
-			  <!-- Tab content -->
-			  <div id="London" class="tabcontent">
-				<h3>London</h3>
-				<p>London is the capital city of England.</p>
-			  </div>
-			  
-			  <div id="Paris" class="tabcontent">
-				<h3>Paris</h3>
-				<p>Paris is the capital of France.</p> 
-			  </div>
-			  
-			  <div id="Tokyo" class="tabcontent">
-				<h3>Tokyo</h3>
-				<p>Tokyo is the capital of Japan.</p>
-			  </div>
-
-			  <div id="test"></div>
-			  
-			  <script>
-
-				// function openCity(evt, cityName) {
-				// 	var i;
-				// 	var tabcontent = document.getElementsByClassName("tabcontent");
-				// 	for (i = 0; i < tabcontent.length; i++) {
-				// 		tabcontent[i].style.display = "none";
-				// 	}
-				// 	var tablinks = document.getElementsByClassName("tablinks"); 
-				// 	for (i = 0; i < tablinks.length; i++) {
-				// 		tablinks[i].className = tablinks[i].className.replace(" active", "");
-				// 	}
-				// 	document.getElementById(cityName).style.display = "block";
-				// 	evt.currentTarget.className += " active";
-				// }
-
-
-				// Get the element with id="defaultOpen" and click on it
-				// document.getElementById("defaultOpen").click();
-	
-				// tablinks[i].onclick = openCity;
-
-					// var string = document.getElementById('test');
-
-					// console.log(string.length);
-
-				for (var year = 2014; year <= 2050; year++){
-					var day = new Date(year, 0, 1);
-					if (day.getDay() === 0) {
-						document.getElementById('test').innerHTML = '1st January is being a Sunday ' + year;
-						console.log("1st January is being a Sunday  " + year);
-					}
-				}
-
-			  </script>
+		 
 
 	<!-- ========================================
 			Turn Digital currency START
